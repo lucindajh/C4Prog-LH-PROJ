@@ -1,6 +1,6 @@
 # Cert IV IT Programming Final Project
 
-# Colours
+## Colours
 | Name     | RGB            | HEX      |
 |----------|----------------|----------|
 | black    | 0, 0, 0        | #000000 |
