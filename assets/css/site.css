@@ -661,6 +661,14 @@ video {
   height: auto;
 }
 
+.h-1\/3 {
+  height: 33.333333%;
+}
+
+.h-1\/4 {
+  height: 25%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -703,6 +711,10 @@ video {
 
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-min {
@@ -902,6 +914,11 @@ video {
   background-color: rgb(168 162 158 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-sky-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(125 211 252 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 640px) {
   .sm\:m-0 {
     margin: 0px;
@@ -961,6 +978,10 @@ video {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1025,5 +1046,9 @@ video {
 
   .xl\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
