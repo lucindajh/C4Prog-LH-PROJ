@@ -20,8 +20,36 @@
                 </ul>
             </nav>
         </div>
-        <main class="bg-stone-100 mx-36">
-            
+        <main class="bg-stone-100 xl:mx-56 lg:mx-36 sm:mx-0">
+            <div class="grid lg:grid-cols-2 sm:grid-cols-1">
+                <article class="m-10 bg-white border-2 border-stone-400 p-4">
+                    <h1>API Form Project</h1>
+                    <p>
+                        This project was created using HTML, CSS and JavaScript. It uses the API Ninjas Trivia and Historical events APIs to get a random trivia question based on category, or a historical event based on a calendar date, depending on which API is selected.
+                    </p>
+                </article>
+                <article class="m-10 bg-white border-2 border-stone-400 p-4">
+                    <form id="api-form" action="#" method="post">
+                        <div class="form-section">
+                            <h3>Pick from the following APIs:</h3>
+                            <input type="checkbox" id="historical-events" name="historical-events" value="historical-events"/>
+                            <label for="historical-events">Historical Events by Date</label>
+                            <br>
+                            <input type="checkbox" id="trivia" name="trivia" value="trivia"/>
+                            <label for="trivia">Random Trivia by Category</label>
+                        </div>
+                        <div class="form-section">
+                            <label for="user-input" id="input-label">no api selected...</label>
+                            <input type="text" id="user-input" name="user-input"/>
+                            <button type="button" id="api-submit">Get Response</button>
+                        </div>
+                        <div class="form-section">
+                            <h3>Result:</h3>
+                            <p id="result"></p>
+                        </div>                              
+                    </form>
+                </article>
+            </div>
         </main>
         <footer class="p-8 bg-cyan-950 text-white">
             <h4>Lucinda Hogue | 2024</h4>
