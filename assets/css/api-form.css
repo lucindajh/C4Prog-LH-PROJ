@@ -1,0 +1,35 @@
+form {
+    text-align: center;
+    justify-self: center;
+    
+}
+
+form button {
+    background-color: #c8dda4;
+    color: #597226;
+    border: 1px solid #597226;
+}
+
+form input {
+    accent-color: #597226;
+    border: 1px solid #597226;
+}
+
+form h3 {
+    margin-block-end: 10px ;
+    font-weight: 600;
+}
+
+form input {
+    margin-block: 10px;
+    
+}
+
+.form-section {
+    margin-block: 10px;
+    padding: 10px;
+    background-color: white;
+    max-width: 100%;
+    border: 1px solid #597226;
+    
+}
