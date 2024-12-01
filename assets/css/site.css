@@ -574,6 +574,26 @@ video {
   bottom: 0px;
 }
 
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
 .z-0 {
   z-index: 0;
 }
