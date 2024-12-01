@@ -1,22 +1,20 @@
-const hamburgerIcon = document.getElementById('hamburger-icon');
-const mobileNav = document.getElementById('mobile-nav');
+let hamburgerIcon = document.getElementById('hamburger-icon');
+let mobileNav = document.getElementById('mobile-nav');
 
-
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth <= 1024){
-        hamburgerIcon.addEventListener('click', () => {
-            if (mobileNav.style.display === 'block'){
-                mobileNav.style.display = 'none'
-            }
-        
-            else {
-                mobileNav.style.display = 'block'
-            }
-            
-        })
-    }
-    else {
+hamburgerIcon.addEventListener('click', () => {
+    if (mobileNav.style.display === 'block'){
         mobileNav.style.display = 'none'
     }
+
+    else {
+        mobileNav.style.display = 'block'
+    }
+    
+})
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1024){
+        mobileNav.style.display = 'none'
+    }
+    
 })

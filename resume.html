@@ -8,7 +8,7 @@
         <div class="sticky top-0">
             <header class="bg-cyan-950 p-10 flex flex-row">
                 <h1 class="text-white font-bold text-4xl w-11/12">RESUME</h1>
-                <p class="lg:hidden sm:block"><i class="fa-solid fa-bars text-5xl text-white pl-4"></i></p>
+                <p id="hamburger-icon" class="lg:hidden sm:block"><i class="fa-solid fa-bars text-5xl text-white pl-4"></i></p>
             </header>
             <nav class="bg-cyan-700">
                 <ul class="lg:flex flex-row p-4 text-2xl text-white justify-self-center min-w-min sm:hidden">
@@ -17,6 +17,15 @@
                     <li><a href="about.html" class="hover:bg-sky-300 py-4 px-16">ABOUT</a></li>
                     <li><a href="resume.html" class="hover:bg-sky-300 py-4 px-16">RESUME</a></li>
                     <li><a href="projects.html" class="hover:bg-sky-300 py-4 px-16">PROJECTS</a></li>
+                </ul>
+            </nav>
+            <nav id="mobile-nav" class="bg-cyan-700 lg:hidden sm:hidden h-full text-2xl text-white">
+                <ul>
+                    <li class="hover:bg-sky-300 py-4 px-16 text-center"><a href="index.html">HOME</a></li>
+                    <li class="hover:bg-sky-300 py-4 px-16 text-center"><a href="contact.html">CONTACT</a></li>
+                    <li class="hover:bg-sky-300 py-4 px-16 text-center"><a href="about.html">ABOUT</a></li>
+                    <li class="hover:bg-sky-300 py-4 px-16 text-center"><a href="resume.html">RESUME</a></li>
+                    <li class="hover:bg-sky-300 py-4 px-16 text-center"><a href="projects.html">PROJECTS</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,5 +55,6 @@
         <footer class="p-8 bg-cyan-950 text-white">
             <h4>Lucinda Hogue | 2024</h4>
         </footer>
+        <script src="assets/js/hamburger-menu.js"></script>
     </body>
 </html>
